@@ -13,3 +13,4 @@ RUN cp -rvf heustonn/* .
 RUN rm -rf heustonn heustonn.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
